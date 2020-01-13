@@ -1,0 +1,37 @@
+/* pages/home/home.wxss */
+
+.display_show{
+    display: block;
+    border: 1px solid;    
+    border-color: beige;
+    padding: 10px;
+}
+.display_none{
+    display: none;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.list{
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-left: 20rpx;
+  width: 84%;
+  height: 120rpx;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 3px;
+  display: inline-block; 
+  vertical-align: middle;
+}
+.list:hover{
+  background: rgba(0, 0, 0, 0.035)
+}
+.list-text{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    size: 20pt;
+}

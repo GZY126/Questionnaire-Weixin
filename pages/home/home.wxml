@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<view class="page">
+  <view class="page__bd">
+
+    <!-- 
+  准备放头像图片的位置，复制自 index
+  <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image> 
+  -->
+
+    <view class="body_head" bindtap="showitem"></view>
+    <navigator url="../views/navigators/navigator3/navigator3">
+      <view class="{{open?'display_show':'display_none'}}">列表3</view>
+    </navigator>
+    <mp-cell link>
+      <view class="list">
+        <span class="list-text">创建问卷</span>
+      </view>
+    </mp-cell>
+    <mp-cell link>
+      <view class="list">
+        <span class="list-text">数据管理</span>
+      </view>
+    </mp-cell>
+  </view>
+</view>
